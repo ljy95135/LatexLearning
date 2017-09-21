@@ -120,6 +120,21 @@ the curly braces.  If you don't want sections number, then add an asterisk (*) a
 section command, but before the first curly brace, e.g., \texttt{\textbackslash
 section*\{A Title Without Numbers\}}.
 
-
+%Create the environment for the bibliography.  Since there is only one
+%reference, set the label width to be one character (I shall follow
+%convention as use the number '9'.  This is because it helps to remind
+%that it is the maximum number of refs that is now permitted by that
+%width).
+\begin{thebibliography}{9}
+%The \bibitem is to start a new reference.  Ensure that the cite_key is
+%unique.  You don't need to put each element on a new line, but I did
+%simply for readability.
+	\bibitem{lamport94}
+	  Leslie Lamport,
+	  \emph{\LaTeX: A Document Preparation System}.
+	  Addison Wesley, Massachusetts,
+	  2nd Edition,
+	  1994.
+\end{thebibliography} %Must end the environment
 
 \end{document}
