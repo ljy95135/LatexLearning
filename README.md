@@ -4,3 +4,4 @@ Learning Latex through &lt;Getting to Grips with LaTeX>
 2. simple.tex
 
 20170921
+add primary
